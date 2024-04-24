@@ -1,6 +1,6 @@
 const express = require("express");
-const app = express(); //formato json 
 const moment = require('moment');
+const app = express(); //formato json 
 app.use(express.json()); //acceptaci[on de información
 app.use(express.urlencoded()); //comunicación
 
